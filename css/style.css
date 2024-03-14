@@ -1,0 +1,91 @@
+/*BODY*/
+body {
+    margin: 0;
+    background-color: #f7e9ef;
+    font-family: "Marcellus";
+
+}
+
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* HEADER*/
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+h1,h2 {
+    font-family: "Dancing Script";
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2
+{
+    font-size: 2.5rem;
+}
+nav {
+    background-color: #edb2cd;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+#search-container {
+    align-self: center;
+}
+
+/* MAIN*/
+main {
+margin: 0 5% 0 5%;
+}
+.container-4-img
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container-4-img img
+{
+    width: 200px;
+    box-shadow: rgba(62, 2, 49, 0.35) 0px 5px 15px;
+}
+
+.horizontal-section
+{
+    display: flex;
+    justify-content: space-between;
+}
+.horizontal-section article
+{
+    width: 20%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    
+}
+.horizontal-section p
+{
+    text-align: justify;
+
+}
+.horizontal-section img
+{
+width: 275px;
+max-height: 183px;
+}
+.horizontal-section h3
+{
+    height: 50px;
+}
